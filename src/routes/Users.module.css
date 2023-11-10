@@ -1,0 +1,123 @@
+.wrapper{
+    margin-top: 20px;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.info{
+    margin-bottom: 7px;
+    color: rgb(122, 133, 133);
+}
+
+.in_info{
+    padding-left: 15px;
+}
+
+p{
+    margin: 30px 0px 0px 14px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.description{
+    margin: 10px 0px 0px 14px;
+}
+
+.albumLink {
+    color: black; 
+}
+  
+.albumLink:hover {
+    color: blue;
+}
+
+.albumLink img{
+    width: 13px;
+    margin-right: 6px;
+}
+
+.us_name{
+    color: black;
+}
+
+.us_name:hover {
+    color: blue;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos img{
+    width: 30%;
+    margin: 10px;
+}
+
+.album_title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.wrapper_descr{
+    margin-left: 21px;
+    margin-bottom: 7px;
+}
+
+.error_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.error_wrap h1,h2{
+    margin-bottom: -15px;
+}
+
+.error_wrap p{
+    margin-bottom: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   .error_wrap{
+     margin:0 auto;
+    }
+    .photos{
+        margin-top: 20px;
+    }
+    .photos img{
+        width: 40%;
+    }
+}
+  
+@media (min-width:470px) and (max-width: 768px) {
+    .album_title{
+        font-size: 18px;
+    }
+    .create_by{
+        font-size: 16px;
+    }
+    .photos{
+        margin-top: 20px;
+    }
+    .photos img{
+        width: 90%;
+    }
+}
+  
+  @media (max-width: 470px)  {
+    .photos img{
+        width: 90%;
+    }
+}
+  
+
